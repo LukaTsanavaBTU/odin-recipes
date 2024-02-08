@@ -1,19 +1,27 @@
 body {
     background: green;
     margin: 5px auto;
-    width: 800px;
+    width: 600px;
     text-align: center;
 }
 
-.text, a {
+.text{
     color: greenyellow;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
 }
 
+div.text {
+    padding: 10px 20px;
+    background-color: darkgreen;
+    text-align: left;
+}
+
 ul, ol {
+    text-align: left;
+    width: 400px;
     padding-left: 0;
-    list-style: none;
+    margin: 40px auto;
 }
 
 img {
@@ -21,11 +29,14 @@ img {
 }
 
 li {
-    display: inline-block;
     margin: 20px;
 }
 
 h1.text {
     font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2.text {
+    font-size: x-large;
 }
